@@ -28,3 +28,4 @@ spec:
   lifecycle: experimental
   owner: direct-team
   system: ecooh
+  $text: https://github.com/alessioerosferri/backstage-demo-nestjs/blob/master/docs/openapi.yml
