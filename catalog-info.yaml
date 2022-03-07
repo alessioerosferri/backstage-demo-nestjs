@@ -11,10 +11,8 @@ spec:
   lifecycle: experimental # production/deprecated
   owner: direct-team
   system: ecooh
-  providesApi:
-    - api:default/hello-world
-#   consumesApis:
-#     - 
+  providesApis:
+    - hello-world
   dependsOn:
     - resource:default/s3-bucket
 ---
