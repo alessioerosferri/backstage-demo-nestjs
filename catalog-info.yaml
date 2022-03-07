@@ -15,7 +15,7 @@ spec:
   providesApis:
     - hello-world
   dependsOn:
-    - resource:default/s3-bucket
+    - resource:default/media-bucket
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
@@ -38,3 +38,13 @@ metadata:
 spec:
   owner: direct-team
   domain: digital-factory
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: media-bucket
+  description: Bucket where we store media
+spec:
+  type: s3-bucket
+  owner: direct-team
+  system: ecooh
