@@ -48,3 +48,16 @@ spec:
   type: s3-bucket
   owner: direct-team
   system: ecooh
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: direct-team
+  description: The direct team, AKA ecooh squad
+spec:
+  type: team
+  profile:
+    displayName: Direct
+  parent: digital-factory
+  children: []
+  members: [jdoe]
