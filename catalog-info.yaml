@@ -17,3 +17,15 @@ spec:
 #     - 
   dependsOn:
     - resource:default/s3-bucket
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: hello-world
+  description: hello world api
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: direct-team
+  system: ecooh
+  file: ./docs/openapi.yml
