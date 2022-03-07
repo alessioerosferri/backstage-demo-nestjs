@@ -4,7 +4,17 @@ metadata:
   name: backstage-demo-nestjs
   annotations:
     github.com/project-slug: alessioerosferri/backstage-demo-nestjs
+  tags:
+    - javascript
 spec:
-  type: other
-  lifecycle: unknown
+  type: service # website/library
+  lifecycle: experimental # production/deprecated
   owner: direct-team
+  system: ecooh
+  providesApi:
+    - hello-world
+#   consumesApis:
+#     - 
+  dependsOn:
+    - kind: Resource
+      name: s3-bucket
