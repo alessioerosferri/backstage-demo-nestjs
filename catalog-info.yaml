@@ -29,3 +29,12 @@ spec:
   system: ecooh
   definition:
     $text: https://github.com/alessioerosferri/backstage-demo-nestjs/blob/master/docs/openapi.yml
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: ecooh
+  description: The whole of ecooh product
+spec:
+  owner: direct-team
+  domain: digital-factory
