@@ -4,6 +4,7 @@ metadata:
   name: backstage-demo-nestjs
   annotations:
     github.com/project-slug: alessioerosferri/backstage-demo-nestjs
+    backstage.io/techdocs-ref: dir:.
   tags:
     - javascript
 spec:
