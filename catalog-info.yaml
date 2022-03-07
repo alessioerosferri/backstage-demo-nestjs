@@ -16,5 +16,4 @@ spec:
 #   consumesApis:
 #     - 
   dependsOn:
-    - kind: Resource
-      name: s3-bucket
+    - s3-bucket
