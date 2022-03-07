@@ -28,4 +28,3 @@ spec:
   lifecycle: experimental
   owner: direct-team
   system: ecooh
-  file: ./docs/openapi.yml
