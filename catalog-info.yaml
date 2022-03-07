@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-demo-nestjs
+  annotations:
+    github.com/project-slug: alessioerosferri/backstage-demo-nestjs
+spec:
+  type: other
+  lifecycle: unknown
+  owner: direct-team
