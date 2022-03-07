@@ -12,7 +12,7 @@ spec:
   owner: direct-team
   system: ecooh
   providesApi:
-    - hello-world
+    - api:default/hello-world
 #   consumesApis:
 #     - 
   dependsOn:
