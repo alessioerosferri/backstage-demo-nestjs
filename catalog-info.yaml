@@ -27,7 +27,7 @@ spec:
   lifecycle: production # production/deprecated
   owner: direct-team
   system: ecooh
-___
+---
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
