@@ -9,7 +9,7 @@ metadata:
     - javascript
 spec:
   type: service # website/library
-  lifecycle: experimental # production/deprecated
+  lifecycle: production # production/deprecated
   owner: direct-team
   system: ecooh
   providesApis:
