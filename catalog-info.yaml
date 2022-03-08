@@ -16,7 +16,7 @@ spec:
     - hello-world
   dependsOn:
     - resource:default/media-bucket
-    - api:default/glooh
+    - component:default/glooh
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
