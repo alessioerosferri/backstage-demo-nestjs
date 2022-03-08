@@ -19,6 +19,16 @@ spec:
     - component:default/glooh
 ---
 apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glooh
+spec:
+  type: website # website/library
+  lifecycle: production # production/deprecated
+  owner: direct-team
+  system: ecooh
+___
+apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: hello-world
